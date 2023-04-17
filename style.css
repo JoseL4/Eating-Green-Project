@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: lightgreen;
+}
+
+.outside{
+  border: 5px dashed white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Chef{
+  border: 5px solid #4287f5;
+  margin: 10px;
+  padding: 30px;
+}
+
+.Drinks{
+  border: 5px transparent
+  margin: 20px;
+}
+
+.Sides{
+  border: 5px solid #4287f5;
+  margin: 10px;
+  padding: 50px;
+}
+
+h4, i{
+  text-align: justify;
+  margin: 10px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .soda, .white, .red{
+  max-width: 250px;
+  max-height: 200px;
+  margin: 10px;
+  transform: transform .2;
+}
+
+.red:hover,.white:hover, .soda:hover, .one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover{
+  transform: scale(1.5);
+}
